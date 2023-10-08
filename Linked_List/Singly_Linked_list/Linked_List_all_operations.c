@@ -200,7 +200,6 @@ void reverse(Node**head){
 
     while(1){
         (*head)->next = prevtemp;
-
         prevtemp = *head;
         *head = nexttemp;
 
