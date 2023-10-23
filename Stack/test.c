@@ -28,15 +28,6 @@ void peek();
 void length();
 
 int main(){
-    push(1);
-    push(2);
-    push(3);
-    pop();
-    push(5);
-    // display();
-    // peek();
-    length();
-    del_stack();
 }
 void length(){
     Node *temp = top;
